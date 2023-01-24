@@ -23,7 +23,7 @@ const app = Vue.createApp({
     methods:{
 
         // metodo para mandar un email 
-        
+
         sendEmail(){
 
            
@@ -47,8 +47,8 @@ const app = Vue.createApp({
                 let timerInterval
                 Swal.fire({
                 title: 'Enviando email!',
-                html: 'Se cerrara la ventana en<b></b> milliseconds.',
-                timer: 9000,
+                html: 'Se cerrara la ventana en  <b> </b> milliseconds.',
+                timer: 11000,
                 timerProgressBar: true,
                 didOpen: () => {
                     Swal.showLoading()
